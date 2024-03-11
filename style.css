@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 4;
+    grid-template-areas:
+    "para ."
+    "para ."
+    "para ."
+    "para .";
+}
+
+p{
+    grid-area: para;
+}
