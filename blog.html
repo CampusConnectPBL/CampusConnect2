@@ -7,60 +7,215 @@
 */ -->
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Untree.co">
-  <link rel="shortcut icon" href="favicon.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
 
-  <meta name="description" content="" />
-  <meta name="keywords" content="bootstrap, bootstrap4" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
 
-		<!-- Bootstrap CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-		<link href="css/tiny-slider.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-		<title>CampusConnect</title>
-	</head>
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="css/tiny-slider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>CampusConnect</title>
+</head>
 
-	<body>
+<body>
 
-		<!-- Start Header/Navigation -->
-		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+	<!-- Start Header/Navigation -->
 
-			<div class="container">
-				<a class="navbar-brand" href="index.html">CampusConnect<span>.</span></a>
+	<style>
+		/* Custom CSS for dropdown menu */
+		.dropdown-menu {
+			background-color: #343a40 !important;
+			/* Background color of dropdown menu */
+		}
 
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+		.dropdown-menu .dropdown-item {
+			color: #ffffff !important;
+			/* Text color of dropdown items */
+		}
 
-				<div class="collapse navbar-collapse" id="navbarsFurni">
-					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html">Home</a>
-						</li>
-						<li><a class="nav-link" href="shop.html">TimeTables</a></li>
-						<li><a class="nav-link" href="about.html">Syllabus</a></li>
-						<li><a class="nav-link" href="services.html">PYQs</a></li>
-						<li class="active"><a class="nav-link" href="blog.html">Notes</a></li>
-						<li><a class="nav-link" href="contact.html">Upload</a></li>
-						<li><a class="nav-link" href="#">Youtube-Links</a></li>
-					</ul>
+		.dropdown-menu .dropdown-item:hover {
+			background-color: #495057 !important;
+			/* Background color of dropdown items on hover */
+		}
+	</style>
 
-					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-						<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
-					</ul>
-				</div>
+	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+		<div class="container">
+			<a class="navbar-brand" href="index.html">CampusConnect<span>.</span></a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+				aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsFurni">
+				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li><a class="nav-link" href="shop.html">TimeTables</a></li>
+					<li><a class="nav-link" href="about.html">Syllabus</a></li>
+					<li><a class="nav-link" href="services.html">PYQs</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownNotes" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">Notes</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownNotes">
+							<li><a class="dropdown-item" href="blog.html">SE Sem 3</a></li>
+							<li><a class="dropdown-item" href="blog2.html">SE Sem 4</a></li>
+							<!-- Add more dropdown items as needed -->
+						</ul>
+					</li>
+					<li><a class="nav-link" href="contact.html">Upload</a></li>
+					<li><a class="nav-link" href="#">Youtube-Links</a></li>
+				</ul>
+
+				<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+					<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
+				</ul>
 			</div>
-				
-		</nav>
-		<!-- End Header/Navigation -->
-	
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/tiny-slider.js"></script>
-		<script src="js/custom.js"></script>
-	</body>
+		</div>
+
+	</nav>
+	<!-- End Header/Navigation -->
+
+	<section style="text-align: center;">
+		<hr>
+		<h1 style="font-weight: 800; text-align: center; font-size: larger; color:#6923D0;">Information Technology
+		</h1>
+		<hr>
+		<h2 style="text-align: center; font-size: large; color: #6923D0;">SE Semester-03</h1>
+			<hr>
+			<h3 style="text-align: center; font-size: large; color: #6923D0;">Discrete Mathamatics (DM)</h3>
+			<hr>
+			<gr></gr>
+			<h3 class="resourceContent">Unit 1<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1WD8k6K6aturCGE06THZa579SzNCfn3cd" target="_blank"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 2<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1WJ7OFRHzJTo5g1ykjHP8NW-8ceRcyC3W"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 3<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1qXoDUWcybiPlup3bz9v566mLLo1FPGxW" target="_blank"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 4<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1nIXdriDDBS0gYuaFPd5Z75jH4gPnAu-M"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 5<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1AIfqiF-Oe7VaPp-BfQToN6Pl6XeKe0i-"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 6<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1fZzc1av_AfdD_c97qKAMP9-DlnZALkvJ"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<hr>
+			<h3 style="text-align: center; font-size: large; color: #6923D0;">Logic Design and Computer Organization
+				(LDCO)
+			</h3>
+			<hr>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 1<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1WD8k6K6aturCGE06THZa579SzNCfn3cd" target="_blank"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 2<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1WJ7OFRHzJTo5g1ykjHP8NW-8ceRcyC3W"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 3<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1qXoDUWcybiPlup3bz9v566mLLo1FPGxW" target="_blank"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 4<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1nIXdriDDBS0gYuaFPd5Z75jH4gPnAu-M"
+					download><span>Download</span><span>PDF</span></a></h3>
+			<h3 class="resourceContent">Unit 5<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1AIfqiF-Oe7VaPp-BfQToN6Pl6XeKe0i-"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 6<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1fZzc1av_AfdD_c97qKAMP9-DlnZALkvJ"
+					download><span>Download</span><span>PDF</span></a></h3>
+			<hr>
+
+			<h3 style="text-align: center; font-size: large; color: #6923D0;">Object Oriented Programming (OOP)
+			</h3>
+			<hr>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 1<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1WD8k6K6aturCGE06THZa579SzNCfn3cd" target="_blank"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 2<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1WJ7OFRHzJTo5g1ykjHP8NW-8ceRcyC3W"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 3<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1qXoDUWcybiPlup3bz9v566mLLo1FPGxW" target="_blank"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 4<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1nIXdriDDBS0gYuaFPd5Z75jH4gPnAu-M"
+					download><span>Download</span><span>PDF</span></a></h3>
+			<h3 class="resourceContent">Unit 5<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1AIfqiF-Oe7VaPp-BfQToN6Pl6XeKe0i-"
+					download><span>Download</span><span>PDF</span></a></h3>
+
+			<gr></gr>
+			<h3 class="resourceContent">Unit 6<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/1fZzc1av_AfdD_c97qKAMP9-DlnZALkvJ"
+					download><span>Download</span><span>PDF</span></a></h3>
+			<hr>
+			<h3 style="text-align: center; font-size: large; color: #6923D0;">Basics of Computer Network (BCN)
+			</h3>
+			<hr>
+
+			<gr></gr>
+			<h3 class="resourceContent">BCN (TechKnowledge)<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/11LtjW4XrCak3DUAf0O0MhULvpQUmJGaT" target="_blank"
+					download><span>Download</span><span>PDF</span></a></h3>
+			<hr>
+
+			<h3 style="text-align: center; font-size: large; color: #6923D0;">Data Structures and Algorithms (DSA)
+			</h3>
+			<hr>
+
+			<gr></gr>
+			<h3 class="resourceContent">DSA (Technical)<a class="downloadbtn"
+					href="https://drive.google.com/drive/u/0/folders/18-STDIEdTLTdvVM8bHJXOyEMEhb7KXev" target="_blank"
+					download><span>Download</span><span>PDF</span></a></h3>
+	</section>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/custom.js"></script>
+</body>
 
 </html>
